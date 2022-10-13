@@ -9,15 +9,30 @@
         html {
             text-align: center;
         }
-        button {
-            font-weight: bold;
-            color: blue;
+        #yun {
+            background-color: #04AA6D; /* Green background */
+            border: 1px solid green; /* Green border */
+            color: white; /* White text */
+            cursor: pointer; /* Pointer/hand icon */
         }
+        #yan {
+            background-color: red; /* Green background */
+            border: 1px solid rgb(216, 140, 54); /* Green border */
+            color: white; /* White text */
+            cursor: pointer; /* Pointer/hand icon */
+        }
+        p {
+            color: blue;
+    
+        }
+        
     </Style>
 
 </head>
-<body>
-    <a href=\"?led=on\"><button>ON</button></a>&nbsp;
-        <a href=\"?led=off\"><button>OFF</button></a>
+<body> 
+    <p> SOLENOID LOCK</p>
+    <a href=\"?led=on\"><button id="yun">OPEN</button></a>&nbsp;
+        <a href=\"?led=off\"><button id="yan">CLOSE</button></a>
 </body>
 </html>
+
