@@ -23,8 +23,8 @@ print('mac = ' + mac)
 # print(wlan.config('txpower'))
 
 # Load login data from different file for safety reasons
-ssid ='Gearbox Staff'
-pw = 'Staff@Gearbox'
+ssid ='secrets'
+pw = 'secrets'
 
 wlan.connect(ssid, pw)
 
